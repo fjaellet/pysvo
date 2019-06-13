@@ -28,7 +28,7 @@ This will be extended and automated soon.
 Check out the tutorial [in this directory](https://github.com/fjaellet/pysvo/blob/master/pysvo_tutorial.ipynb).
 
 ## Credit
-The code would be useless without the huge effort by the SVO group at CAB to create and maintain the Spanish VO services. Thus, if you make use of 'pysvo' as part of your work, please link to this repository and include the following acknowledgement in your publication:
+The code would be useless without the huge effort by the SVO group at CAB to create and maintain the Spanish VO services. Thus, if you make use of pysvo as part of your work, please link to this repository and include the following acknowledgement in your publication:
 
     This research has made use of the SVO Filter Profile Service (http://svo2.cab.inta-csic.es/theory/fps/) supported from the Spanish MINECO through grant AYA2017-84089. 
 
@@ -37,5 +37,5 @@ If you use the Filter Profile Service, then the SVO team also appreciates if you
     The SVO Filter Profile Service. Rodrigo, C., Solano, E., Bayo, A. http://ivoa.net/documents/Notes/SVOFPS/index.html
     The Filter Profile Service Access Protocol. Rodrigo, C., Solano, E. http://ivoa.net/documents/Notes/SVOFPSDAL/index.html
 
-Initially developed by Friedrich Anders (while at AIP). A few code snippets dealing with extinction curve of Schlafly et al. (2016) was written by Eddie Schlafly (MPIA).
+Please send questions/doubts/bug reports to fanders@icc.ub.edu.
 
