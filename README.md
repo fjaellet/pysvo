@@ -31,5 +31,5 @@ The SVO team also appreciates if you could include the following references in y
     The SVO Filter Profile Service. Rodrigo, C., Solano, E., Bayo, A. http://ivoa.net/documents/Notes/SVOFPS/index.html
     The Filter Profile Service Access Protocol. Rodrigo, C., Solano, E. http://ivoa.net/documents/Notes/SVOFPSDAL/index.html
 
-Initially developed for StarHorse by Friedrich Anders (AIP), using code from Eddie Schlafly (MPIA).
+Initially developed for StarHorse by Friedrich Anders (AIP). A few code snippets dealing with extinction curve of Schlafly et al. (2016) were stolen from Eddie Schlafly (MPIA).
 
