@@ -13,7 +13,7 @@
 #                       GetFlux:      Get the flux value at a given wavelength 
 #
 ##################################################################################
-
+from matplotlib import pyplot as plt
 import numpy as np
 import os.path
 from scipy.interpolate import interp1d
@@ -84,9 +84,11 @@ class SynSpectrum(object):
         """
         Plots the spectrum.
         """
-        from matplotlib import pyplot as plt
-        plt.figure()
+        fig, ax = plt.subplots()
         plt.plot(self.wavelength, self.flux)
+        ax.set_xlabel(r"$\lambda\quad [{\rm \AA}]$")
+        ax.set_ylabel(r"Flux")
+
         
     def Interpolate(self, kind='cubic'):
         """

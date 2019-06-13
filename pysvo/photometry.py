@@ -270,7 +270,9 @@ class PhotoFilter(object):
         """
         from matplotlib import pyplot as plt
         t = self.Transmissioncurve()
-        plt.figure()
+        fig, ax = plt.subplots()
+        ax.set_xlabel(r"$\lambda\quad [{\rm \AA}]$")
+        ax.set_ylabel(r"$T_{\lambda}$")
         plt.plot(t.array['Wavelength'], t.array['Transmission'])
         
     def getAlambda_rough(self, extlaw='schlafly', RV=3.32):
