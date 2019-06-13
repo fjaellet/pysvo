@@ -10,12 +10,17 @@ Currently, it can do the following things:
 - Handle some of the most widely used extinction curves
 - Calculate extinction coefficients for arbitrary photometric bands on the fly
 
-## Dependencies
+## Setup
 
 You need to have the following python packages installed in order to use pysvo:
 - numpy, scipy, astropy, matplotlib, collections
 Optional:
 - extinction
+
+In order to work properly, currently you have to download the synthetic spectra by hand from [the Theoretical spectra web server](http://svo2.cab.inta-csic.es/theory//newov2/index.php?models=Kurucz) to the folder  ./pysvo/spectrallib/SUBFOLDERNAME/SPECTRUMFILE.txt
+where SUBFOLDERNAME is either "Kurucz" or "BT-Settl", and the SPECTRUMFILE names depend on the library used...
+
+This will be automated soon.
 
 ## Tutorial 
 
