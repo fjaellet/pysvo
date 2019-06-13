@@ -1,0 +1,7 @@
+*.kate-swp
+build/
+dist/
+pysvo.egg-info/
+__pycache__/
+pysvo/spectrallib/
+pysvo/photometry/*.xml
