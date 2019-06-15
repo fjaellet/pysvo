@@ -16,7 +16,7 @@ setup(name='pysvo',
       packages=['pysvo'],
       package_data={'pysvo/data':['photometry/girardi_table_new.csv']},
       dependency_links = [],
-      install_requires=['numpy','scipy','matplotlib','astropy','collections'],
+      install_requires=['numpy','scipy','matplotlib','astropy'],
       classifiers=["Programming Language :: Python :: 3",
                    "License :: OSI Approved :: MIT License",
                    "Operating System :: OS Independent"]
